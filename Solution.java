@@ -13,22 +13,22 @@ public class Solution {
         
         int numb = Integer.parseInt(reader.readLine());
         
-        if(numb < 999 && numb > 0 && numb < 10 && numb % 2 == 0 ){
+        if(numb < 1000 && numb > 0 && numb < 10 && numb % 2 == 0 ){
             System.out.println("четное однозначное число");
         }
-        else if(numb < 999 && numb > 0 && numb < 10 && numb % 2 != 0 ){
+        else if(numb < 1000 && numb > 0 && numb < 10 && numb % 2 != 0 ){
             System.out.println("нечетное однозначное число");
         }
-         else if(numb < 999 && numb > 0 && numb < 100 && numb % 2 == 0 ){
+         else if(numb < 1000 && numb > 0 && numb < 100 && numb % 2 == 0 ){
             System.out.println("четное двузначное число");
         }
-         else if(numb < 999 && numb > 0 && numb < 100 && numb % 2 != 0 ){
+         else if(numb < 1000 && numb > 0 && numb < 100 && numb % 2 != 0 ){
             System.out.println("нечетное двузначное число");
         }
-        else if(numb < 999 && numb > 0 && numb < 1000 && numb % 2 == 0 ){
+        else if(numb < 1000 && numb > 0 && numb % 2 == 0 ){
             System.out.println("четное трехзначное число");
         }
-        else if(numb < 999 && numb > 0 && numb < 1000 && numb % 2 != 0 ){
+        else if(numb < 1000 && numb > 0 && numb % 2 != 0 ){
             System.out.println("нечетное трехзначное число");
         }
          
